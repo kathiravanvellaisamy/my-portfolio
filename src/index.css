@@ -9,3 +9,18 @@ body{
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.container{
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@theme{
+
+  /* breakpoints */
+  --breakpoint-sm:36rem;
+  --breakpoint-md:48rem;
+  --breakpoint-lg:64rem;
+  --breakpoint-xl:68.75rem;
+
+}
